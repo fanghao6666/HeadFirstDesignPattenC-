@@ -1,0 +1,28 @@
+﻿  main.cpp
+g:\head first 设计模式\abstractfactory\abstractfactory\pizzaingredientfactory.h(7): error C2504: “PizzaIngredientFactory”: 未定义基类
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(9): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(9): error C2238: 意外的标记位于“;”之前
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(11): error C2061: 语法错误: 标识符“PizzaIngredientFactory”
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(11): error C2065: “p”: 未声明的标识符
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(11): error C2614: “CheesePizza”: 非法的成员初始化:“m_p_ingredient_factory”不是基或成员
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(15): error C2065: “m_p_ingredient_factory”: 未声明的标识符
+g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(15): error C2227: “->create_sauce”的左边必须指向类/结构/联合/泛型类型
+  g:\head first 设计模式\abstractfactory\abstractfactory\cheesepizza.h(15): note: 类型是“unknown-type”
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(8): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(8): error C2238: 意外的标记位于“;”之前
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(10): error C2061: 语法错误: 标识符“PizzaIngredientFactory”
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(10): error C2065: “p”: 未声明的标识符
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(10): error C2614: “GreekPizza”: 非法的成员初始化:“m_p_ingredient_factory”不是基或成员
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(14): error C2065: “m_p_ingredient_factory”: 未声明的标识符
+g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(14): error C2227: “->create_dough”的左边必须指向类/结构/联合/泛型类型
+  g:\head first 设计模式\abstractfactory\abstractfactory\greekpizza.h(14): note: 类型是“unknown-type”
+g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(11): error C2440: “初始化”: 无法从“NYPizzaIngredientFactory *”转换为“PizzaIngredientFactory *”
+  g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(11): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(14): error C2664: “CheesePizza::CheesePizza(CheesePizza &&)”: 无法将参数 1 从“PizzaIngredientFactory *”转换为“const CheesePizza &”
+  g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(14): note: 原因如下: 无法从“PizzaIngredientFactory *”转换为“const CheesePizza”
+  g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(14): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(20): error C2664: “GreekPizza::GreekPizza(GreekPizza &&)”: 无法将参数 1 从“PizzaIngredientFactory *”转换为“const GreekPizza &”
+  g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(20): note: 原因如下: 无法从“PizzaIngredientFactory *”转换为“const GreekPizza”
+  g:\head first 设计模式\abstractfactory\abstractfactory\nypizzastore.h(20): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
